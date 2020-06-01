@@ -1,0 +1,12 @@
+runners\RunnerTestAddToCompare.class
+Hooks\hooks.class
+runners\RunnerProductListingPage.class
+Step\ComparePageStep.class
+runners\RunnerTestAddToWishList.class
+Step\LoginStep.class
+Step\HomePageStep.class
+Step\ProductDeatilPageStep.class
+Step\WishListPageStep.class
+Ultility\readCustomerdata.class
+Ultility\ReadProductdata.class
+Ultility\TestBasePage.class

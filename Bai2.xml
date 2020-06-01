@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" parallel="tests" thread-count="2">
+
+<!--    <test name="Test Add To Cart">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="TestAddToCart"></class>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+<!--    <test name="testWishListPage">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="testWishListPage"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="testWishListPage">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testAddToCompare"></class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
